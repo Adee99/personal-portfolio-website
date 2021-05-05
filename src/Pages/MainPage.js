@@ -13,7 +13,7 @@ function MainPage() {
             </div>
             <div className="main-content">
                 <h1> Hi I'm <span> Adeepa Jayawardana </span></h1>
-                <p>I'm an undergraduate student at the University Of Westminster at the school of Computer Science
+                <p className="sub-content">I'm an undergraduate student at the University Of Westminster at the school of Computer Science
                      and Engineering, skilled in programming, Web developing, 
                     software designing and passionate about research and development of Native Mobile applications.
                 </p>
@@ -78,6 +78,10 @@ const MainPageStyles = styled.header`
                 }
             }
 
+            /* sub para in main page */
+            .sub-content{
+                padding-top:10px;
+            }
 
 
         }

@@ -74,8 +74,12 @@ const NavigationStyles = styled.div`
             a{
                 display: block;
                 position:relative;
-                padding:.3rem 0;
+                padding:.4rem 0;
                 z-index:3;
+                font-weight:500;
+                transition: all 0.4s ease-in-out;
+                letter-spacing:1px;
+                
                 
 
                 &:hover{

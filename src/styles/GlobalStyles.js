@@ -45,6 +45,7 @@ const GlobalStyles = createGlobalStyle `
         font-family:inherit;
         color:inherit;
         font-size:inherit;
+        font-size:1.2rem;
     }
 
     h1{
