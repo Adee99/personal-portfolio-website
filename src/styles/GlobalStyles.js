@@ -58,6 +58,16 @@ const GlobalStyles = createGlobalStyle `
         }
     }
 
+    h4{
+        font-size: 2rem;
+        color:whitesmoke;
+        /* styles for main content span */
+        span{
+            font-size: 2rem;
+            color: #3d88b8;
+        }
+    }
+
 
 `
 ;// end

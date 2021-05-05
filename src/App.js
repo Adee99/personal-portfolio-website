@@ -1,7 +1,11 @@
 import React from 'react';
+import { Switch, Route } from 'react-router';
 import styled from 'styled-components';
 import Sidebar from './components/Sidebar';
-import MainPage from './Pages/MainPage'
+import MainPage from './Pages/MainPage';
+import AboutPage from './Pages/AboutPage';
+import WorkPage from './Pages/AboutPage';
+import ContactPage from './Pages/AboutPage';
 
 function App(){
 return(
@@ -14,7 +18,24 @@ return(
         <div className="line-3"></div>
         <div className="line-4"></div>
       </div>
-      <MainPage/>
+      <Switch>
+        <Route path="/" exact>
+        <MainPage/>
+        </Route>
+
+        <Route path="/about" exact>
+        <AboutPage/>
+        </Route>
+
+        <Route path="/work" exact>
+        <WorkPage/>
+        </Route>
+
+        <Route path="/contact" exact>
+        <ContactPage/>
+        </Route>
+
+      </Switch>
     </MainContentStyles>
   </div>
 )
