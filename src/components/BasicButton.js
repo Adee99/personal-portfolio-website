@@ -16,7 +16,6 @@ const BasicButtonStyles = styled.a`
     cursor: pointer;
     display: inline-block;
     font-size: inherit;
-    text-transform: uppercase;
     position: relative;
     transition: all .4s ease-in-out;
     &::after{

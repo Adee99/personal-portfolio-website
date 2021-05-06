@@ -81,6 +81,7 @@ const MainPageStyles = styled.header`
             /* sub para in main page */
             .sub-content{
                 padding-top:10px;
+                cursor: grab;
             }
 
 

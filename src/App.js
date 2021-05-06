@@ -4,8 +4,8 @@ import styled from 'styled-components';
 import Sidebar from './components/Sidebar';
 import MainPage from './Pages/MainPage';
 import AboutPage from './Pages/AboutPage';
-import WorkPage from './Pages/AboutPage';
-import ContactPage from './Pages/AboutPage';
+import WorkPage from './Pages/WorkPage';
+import ContactPage from './Pages/ContactPage';
 
 function App(){
 return(
@@ -48,7 +48,7 @@ const MainContentStyles = styled.main`
     position:relative;
 
     /* lines */
-    .lines{
+    /* .lines{
       min-height:100vh;
       position:absolute;
       width:100%;
@@ -58,10 +58,10 @@ const MainContentStyles = styled.main`
 
       .line-1, .line-2 , .line-3 , .line-4{
         min-height:100vh;
-        background-color: var(--border-color);
-        width: 1px;
+        background-color: whitesmoke;
+        width: 0.2px;
       }
-    }
+    } */
 
 
 

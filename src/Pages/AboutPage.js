@@ -1,17 +1,17 @@
 import styled from 'styled-components';
 import React from 'react';
-import MainLayout from '../styles/Layout';
+import MajorLayout from '../styles/Layout';
 import Titles from '../components/Titles';
 import ImageDivision from '../components/ImageDivision';
 
 function AboutPage() {
     return (
-        <MainLayout>
+        <MajorLayout>
             <AboutStyles>
                 <Titles title={'About Me'} span={'About Me'}/>
                 <ImageDivision/>
             </AboutStyles>
-        </MainLayout>
+        </MajorLayout>
     )
 }
 

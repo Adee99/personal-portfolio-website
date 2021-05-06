@@ -35,12 +35,13 @@ function ImageDivision() {
                         {/* <p>: Freelance</p> */}
                     </div>
                 </div>
-                <BasicButton title={'Download Cv'} />
+                <BasicButton title={'Download CV'} />
             </div>
         </ImageDivisionStyles>
     )
 }
 
+// stylings for image division
 
 const ImageDivisionStyles = styled.div`
     margin-top: 5rem;
@@ -75,6 +76,7 @@ const ImageDivisionStyles = styled.div`
         .about-info{
             display: flex;
             padding-bottom: 1.4rem;
+
             .info-title{
                 padding-right: 3rem;
                 p{
