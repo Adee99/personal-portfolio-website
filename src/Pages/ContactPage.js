@@ -6,13 +6,11 @@ import Titles from '../components/Titles';
 import BasicButton from '../components/BasicButton';
 import PhoneIcon from '@material-ui/icons/Phone';
 import EmailIcon from '@material-ui/icons/Email';
-import LocationOnIcon from '@material-ui/icons/LocationOn';
 import ContactElements from '../components/ContactElements';
 
 function ContactPage() {
     const phone = <PhoneIcon />
     const email = <EmailIcon />
-    const location = <LocationOnIcon />
     return (
         <MajorLayout>
             <Titles title={'Contact'} span={'Contact'} />
@@ -20,7 +18,7 @@ function ContactPage() {
             <SecondaryLayout className={'contact-section'}>
                 <div className="left-content">
                     <div className="contact-title">
-                        <h4>Get In Touch</h4>
+                        <h4>Reach Out</h4>
                     </div>
                     <form  className="form">
                         <div className="form-field">

@@ -2,6 +2,9 @@ import Particles from 'react-particles-js';
 
 import React from 'react';
 
+
+// react component Particles.js has been used in designing  the main page animation item
+
 function Atoms() {
   return (
     <>
