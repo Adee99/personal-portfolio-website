@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from "react";
-import { Switch, Route } from 'react-router';
+import { Route, Switch as Switching } from "react-router";
 import styled from 'styled-components';
 import Sidebar from './components/Sidebar';
 import MenuIcon from '@material-ui/icons/Menu';
@@ -25,13 +25,8 @@ return(
     </div>
 
     <MainContentStyles>
-      <div className="lines">
-        <div className="line-1"></div>
-        <div className="line-2"></div>
-        <div className="line-3"></div>
-        <div className="line-4"></div>
-      </div>
-      <Switch>
+
+      <Switching>
         <Route path="/" exact>
         <MainPage/>
         </Route>
@@ -48,10 +43,10 @@ return(
         <ContactPage/>
         </Route>
 
-      </Switch>
+      </Switching>
     </MainContentStyles>
   </div>
-)
+);
 }
 
 
