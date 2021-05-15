@@ -45,6 +45,9 @@ return(
 const MainContentStyles = styled.main`
     margin-left: 16.5rem;
     min-height:100vh;
+    @media screen and (max-width:1200px){
+      margin-left: 0;
+    }
     position:relative;
 
     /* lines */

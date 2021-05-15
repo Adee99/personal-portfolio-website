@@ -10,13 +10,13 @@ function ImageDivision() {
                 <img src={profilePic2} alt=""/>
             </div>
             <div className="right-content">
-                <h4>I am <span>Adeepa Jayawardana</span></h4>
-                <p className="paragraph">
+                {/* <h4>I am <span>Adeepa Jayawardana</span></h4> */}
+                {/* <p className="paragraph">
                     I'm an undergraduate student at the University Of Westminster at the school of Computer Science
                      and Engineering, skilled in programming, Web developing, 
                     software designing and passionate about research and development of Native Mobile applications.
                     
-                </p>
+                </p> */}
                 <div className="about-info">
                     <div className="info-title">
                         <p>Full Name</p>
@@ -29,7 +29,7 @@ function ImageDivision() {
                     <div className="info">
                         <p>: Adeepa Dasun Jayawardana</p>
                         <p>: 21</p>
-                        <p>: English </p>
+                        <p>: Sri Lankan </p>
                         <p>: Sinhala, English, Tamil </p>
                         <p>: Sri Lanka</p>
                         {/* <p>: Freelance</p> */}
@@ -71,16 +71,16 @@ const ImageDivisionStyles = styled.div`
             }
         }
         .paragraph{
-            padding: 1rem 0;
+            padding: 3rem 0;
         }
         .about-info{
-            display: flex;
+            display: flexbox;
             padding-bottom: 1.4rem;
 
             .info-title{
-                padding-right: 3rem;
+                padding-right: 2rem;
                 p{
-                    font-weight: 600;
+                    font-weight: 800;
                 }
             }
             .info-title, .info{

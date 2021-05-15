@@ -14,10 +14,17 @@ function Sidebar() {
 
 // define variable for styles
 const SidebarStyles = styled.div`
-        height: 100vh;
-        position:fixed;
-        background-color: var( --sidebar-dark-color);
-        width : 16.42rem;
+    width: 16.42rem;
+    position: fixed;
+    height: 100vh;
+    background-color: var(--sidebar-dark-color);
+    //handle side bar fro responsive layout
+    overflow: hidden;
+    transition: all .4s ease-in-out;
+    @media screen and (max-width:1200px){
+        transform: translateX(-100%);
+        z-index: 20;
+    }
 
 `;
 

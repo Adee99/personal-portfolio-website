@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Atoms from  '../components/Atoms';
+import Typed from "react-typed";
 import GitHubIcon from '@material-ui/icons/GitHub';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedinIcon from '@material-ui/icons/LinkedIn';
@@ -13,10 +14,21 @@ function MainPage() {
             </div>
             <div className="main-content">
                 <h1> Hi I'm <span> Adeepa Jayawardana </span></h1>
-                <p className="sub-content">I'm an undergraduate student at the University Of Westminster at the school of Computer Science
-                     and Engineering, skilled in programming, Web developing, 
-                    software designing and passionate about research and development of Native Mobile applications.
-                </p>
+                <div className="sub-content">
+                <strong className="text-slide">
+                  <Typed style={typedStyles}
+                    strings={[
+                      "Front End Developer",
+                      "Back End Developer",
+                      "Software Engineer"
+                    ]}
+                    typeSpeed={80}
+                    backDelay={1100}
+                    backSpeed={30}
+                    loop
+                  />
+                </strong>
+                </div>
                 <div className="icons">
                     <a href ="#" className="icon i-github">
                         <GitHubIcon/>
@@ -33,7 +45,7 @@ function MainPage() {
     )
 }
 
-const MainPageStyles = styled.header`
+const MainPageStyles = styled.div`
         height:100vh;
         width:100%;
         position:relative;
@@ -69,7 +81,6 @@ const MainPageStyles = styled.header`
                         color: #3d88b8;
                     }
                     &:not(:last-child){
-                       
                         margin-right:1rem;
                     }
                 }
@@ -81,15 +92,21 @@ const MainPageStyles = styled.header`
             /* sub para in main page */
             .sub-content{
                 padding-top:10px;
-                cursor: grab;
+                cursor: grab;   
+                font-weight:800;
+                .strings{
+                    font-size:20px;
+                }
             }
-
-
         }
 
-       
-
-
 `;
+
+const typedStyles = {
+      color: "white-smoke",
+      backgroundColor: "transparent",
+      padding: "10px",
+      fontFamily: "Roboto",
+};
 
 export default MainPage;
