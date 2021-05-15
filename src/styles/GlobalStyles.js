@@ -68,9 +68,31 @@ const GlobalStyles = createGlobalStyle `
         }
     }
 
+   //collapse menu icon
+    .responsive-menu{
+        right:5%;
+        top: 5%;
+        display: none;
+        z-index:16;
+        position:absolute;
+        svg{
+            font-size:2rem;
+            color:whitesmoke;
+        }
+        
+    }
 
-    
+    .nav-toggler{
+        transform: translateX(0);
+        z-index: 20;
+    }
 
+    @media screen and (max-width:1200px){
+        .responsive-menu{
+            display:block;
+        }
+
+    }
 
 `
 ;// end

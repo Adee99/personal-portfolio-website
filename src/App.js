@@ -1,16 +1,29 @@
 import React from 'react';
+import { useState } from "react";
 import { Switch, Route } from 'react-router';
 import styled from 'styled-components';
 import Sidebar from './components/Sidebar';
+import MenuIcon from '@material-ui/icons/Menu';
 import MainPage from './Pages/MainPage';
 import AboutPage from './Pages/AboutPage';
 import WorkPage from './Pages/WorkPage';
+import { IconButton } from "@material-ui/core";
 import ContactPage from './Pages/ContactPage';
 
 function App(){
+  const [menuToggler, setMenuToggler] = useState(false);
+
+
 return(
   <div className="App">
-    <Sidebar/>
+    <Sidebar menuToggler={menuToggler} />
+
+    <div className="responsive-menu">
+        <IconButton  onClick={() => setMenuToggler(!menuToggler)}>
+          <MenuIcon/>
+        </IconButton>
+    </div>
+
     <MainContentStyles>
       <div className="lines">
         <div className="line-1"></div>
@@ -65,6 +78,7 @@ const MainContentStyles = styled.main`
         width: 0.2px;
       }
     } */
+
 
 
 
