@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.js": "/personal-portfolio-website/static/js/main.78550c89.chunk.js",
-    "main.js.map": "/personal-portfolio-website/static/js/main.78550c89.chunk.js.map",
-    "runtime-main.js": "/personal-portfolio-website/static/js/runtime-main.396b10dc.js",
-    "runtime-main.js.map": "/personal-portfolio-website/static/js/runtime-main.396b10dc.js.map",
-    "static/js/2.851339b8.chunk.js": "/personal-portfolio-website/static/js/2.851339b8.chunk.js",
-    "static/js/2.851339b8.chunk.js.map": "/personal-portfolio-website/static/js/2.851339b8.chunk.js.map",
-    "index.html": "/personal-portfolio-website/index.html",
-    "static/js/2.851339b8.chunk.js.LICENSE.txt": "/personal-portfolio-website/static/js/2.851339b8.chunk.js.LICENSE.txt",
-    "static/media/Aayu.118c16a0.jpg": "/personal-portfolio-website/static/media/Aayu.118c16a0.jpg",
-    "static/media/cybercmz.3bcbd207.png": "/personal-portfolio-website/static/media/cybercmz.3bcbd207.png",
-    "static/media/profilePic.8cb38423.png": "/personal-portfolio-website/static/media/profilePic.8cb38423.png",
-    "static/media/profilePic2.babb1ae2.png": "/personal-portfolio-website/static/media/profilePic2.babb1ae2.png",
-    "static/media/sprt.fed83670.jpg": "/personal-portfolio-website/static/media/sprt.fed83670.jpg",
-    "static/media/travelmania.1ee501c3.jpg": "/personal-portfolio-website/static/media/travelmania.1ee501c3.jpg"
+    "main.js": "/static/js/main.2865424f.chunk.js",
+    "main.js.map": "/static/js/main.2865424f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.23e4fb69.js",
+    "runtime-main.js.map": "/static/js/runtime-main.23e4fb69.js.map",
+    "static/js/2.551db9ee.chunk.js": "/static/js/2.551db9ee.chunk.js",
+    "static/js/2.551db9ee.chunk.js.map": "/static/js/2.551db9ee.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.551db9ee.chunk.js.LICENSE.txt": "/static/js/2.551db9ee.chunk.js.LICENSE.txt",
+    "static/media/Aayu.118c16a0.jpg": "/static/media/Aayu.118c16a0.jpg",
+    "static/media/cybercmz.3bcbd207.png": "/static/media/cybercmz.3bcbd207.png",
+    "static/media/profilePic.8cb38423.png": "/static/media/profilePic.8cb38423.png",
+    "static/media/profilePic2.babb1ae2.png": "/static/media/profilePic2.babb1ae2.png",
+    "static/media/sprt.fed83670.jpg": "/static/media/sprt.fed83670.jpg",
+    "static/media/travelmania.1ee501c3.jpg": "/static/media/travelmania.1ee501c3.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.396b10dc.js",
-    "static/js/2.851339b8.chunk.js",
-    "static/js/main.78550c89.chunk.js"
+    "static/js/runtime-main.23e4fb69.js",
+    "static/js/2.551db9ee.chunk.js",
+    "static/js/main.2865424f.chunk.js"
   ]
 }
