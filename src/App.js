@@ -1,14 +1,14 @@
 import React from 'react';
 import { useState } from "react";
-import { Route, Switch as Switching } from "react-router";
-import styled from 'styled-components';
+import { Route,Switch  } from "react-router-dom";
 import Sidebar from './components/Sidebar';
-import MenuIcon from '@material-ui/icons/Menu';
+import styled from 'styled-components';
 import MainPage from './Pages/MainPage';
 import AboutPage from './Pages/AboutPage';
 import WorkPage from './Pages/WorkPage';
 import { IconButton } from "@material-ui/core";
 import ContactPage from './Pages/ContactPage';
+import MenuIcon from '@material-ui/icons/Menu';
 
 function App(){
   const [menuToggler, setMenuToggler] = useState(false);
@@ -26,8 +26,8 @@ return(
 
     <MainContentStyles>
 
-      <Switching>
-        <Route path="/" exact>
+      <Switch>
+        <Route path="/personal-portfolio-website" exact>
         <MainPage/>
         </Route>
 
@@ -43,7 +43,8 @@ return(
         <ContactPage/>
         </Route>
 
-      </Switching>
+      </Switch>
+
     </MainContentStyles>
   </div>
 );
