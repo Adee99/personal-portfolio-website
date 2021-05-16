@@ -18,9 +18,12 @@ function MainPage() {
                 <strong className="text-slide">
                   <Typed style={typedStyles}
                     strings={[
+                      "Software Engineering Undergraduate",
                       "Front End Developer",
                       "Back End Developer",
-                      "Software Engineer"
+                      "Mobile App Developer",
+                      "Web Developer",
+                      "Researcher"
                     ]}
                     typeSpeed={80}
                     backDelay={1100}
