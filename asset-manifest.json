@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.js": "/personal-portfolio-website/static/js/main.261ab5c6.chunk.js",
-    "main.js.map": "/personal-portfolio-website/static/js/main.261ab5c6.chunk.js.map",
+    "main.js": "/personal-portfolio-website/static/js/main.a973277e.chunk.js",
+    "main.js.map": "/personal-portfolio-website/static/js/main.a973277e.chunk.js.map",
     "runtime-main.js": "/personal-portfolio-website/static/js/runtime-main.396b10dc.js",
     "runtime-main.js.map": "/personal-portfolio-website/static/js/runtime-main.396b10dc.js.map",
-    "static/js/2.08afaa45.chunk.js": "/personal-portfolio-website/static/js/2.08afaa45.chunk.js",
-    "static/js/2.08afaa45.chunk.js.map": "/personal-portfolio-website/static/js/2.08afaa45.chunk.js.map",
+    "static/js/2.042c4068.chunk.js": "/personal-portfolio-website/static/js/2.042c4068.chunk.js",
+    "static/js/2.042c4068.chunk.js.map": "/personal-portfolio-website/static/js/2.042c4068.chunk.js.map",
     "index.html": "/personal-portfolio-website/index.html",
-    "static/js/2.08afaa45.chunk.js.LICENSE.txt": "/personal-portfolio-website/static/js/2.08afaa45.chunk.js.LICENSE.txt",
+    "static/js/2.042c4068.chunk.js.LICENSE.txt": "/personal-portfolio-website/static/js/2.042c4068.chunk.js.LICENSE.txt",
     "static/media/Aayu.118c16a0.jpg": "/personal-portfolio-website/static/media/Aayu.118c16a0.jpg",
+    "static/media/chatbot.532b196c.jpg": "/personal-portfolio-website/static/media/chatbot.532b196c.jpg",
     "static/media/cybercmz.3bcbd207.png": "/personal-portfolio-website/static/media/cybercmz.3bcbd207.png",
+    "static/media/jrnl.6b08815f.jpg": "/personal-portfolio-website/static/media/jrnl.6b08815f.jpg",
     "static/media/profilePic.8cb38423.png": "/personal-portfolio-website/static/media/profilePic.8cb38423.png",
     "static/media/profilePic2.babb1ae2.png": "/personal-portfolio-website/static/media/profilePic2.babb1ae2.png",
-    "static/media/sprt.fed83670.jpg": "/personal-portfolio-website/static/media/sprt.fed83670.jpg",
+    "static/media/sprt.3f515525.jpg": "/personal-portfolio-website/static/media/sprt.3f515525.jpg",
     "static/media/travelmania.1ee501c3.jpg": "/personal-portfolio-website/static/media/travelmania.1ee501c3.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.396b10dc.js",
-    "static/js/2.08afaa45.chunk.js",
-    "static/js/main.261ab5c6.chunk.js"
+    "static/js/2.042c4068.chunk.js",
+    "static/js/main.a973277e.chunk.js"
   ]
 }
